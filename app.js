@@ -8960,7 +8960,7 @@ var _user$project$View$view = function (model) {
 };
 
 var _user$project$Main$url = function (mdfile) {
-	return A2(_elm_lang$core$Basics_ops['++'], 'http://localhost:8000/content/', mdfile);
+	return A2(_elm_lang$core$Basics_ops['++'], '/content/', mdfile);
 };
 var _user$project$Main$fetchTask = function (mdfile) {
 	return _evancz$elm_http$Http$getString(
